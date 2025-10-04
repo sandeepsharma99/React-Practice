@@ -59,3 +59,5 @@ const {onSent,recentPrompt,showResult,loading,resultData, setInput,input} = useC
 }
 
 export default Main
+
+/* unable to get api */
