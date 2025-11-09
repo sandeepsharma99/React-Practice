@@ -1,47 +1,27 @@
-import React from 'react';
+import React from 'react'
 
-const Card = ({ product_name, description, price, category, image }) => {
-  const cardStyle = {
-    border: '1px solid #ddd',
-    borderRadius: '8px',
-    padding: '20px',
-    width: '300px',
-    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
-    display: 'flex',
-    flexDirection: 'column',
-    justifyContent: 'space-between'
-  };
-
-  const imageStyle = {
-    width: '100%',
-    height: '200px',
-    objectFit: 'cover',
-    borderRadius: '8px 8px 0 0',
-  };
-
-  const buttonStyle = {
-    backgroundColor: '#007BFF',
-    color: 'white',
-    padding: '10px 15px',
-    border: 'none',
-    borderRadius: '5px',
-    cursor: 'pointer',
-    marginTop: '10px',
-    fontSize: '16px'
-  };
-
+const Card = () => {
   return (
-    <div style={cardStyle}>
-      <img src={image} alt={product_name} style={imageStyle} />
-      <h2>{product_name}</h2>
-      <p>{description}</p>
-      <p><strong>Category:</strong> {category}</p>
-      <h3>${price}</h3>
-      <button style={buttonStyle}>Buy Now</button>
+    <div>
+
+    <div className="card bg-base-100 w-96 shadow-sm">
+  <figure className="px-10 pt-10">
+    <img
+      src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+      alt="Shoes"
+      className="rounded-xl" />
+  </figure>
+  <div className="card-body items-center text-center">
+    <h2 className="card-title">Card Title</h2>
+    <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+    <div className="card-actions">
+      <button className="btn btn-primary">Buy Now</button>
     </div>
+  </div>
+</div>
 
+    </div>
+  )
+}
 
-  );
-};
-
-export default Card;
+export default Card
