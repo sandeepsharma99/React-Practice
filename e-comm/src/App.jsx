@@ -1,19 +1,23 @@
-import React from 'react';
-import Card from './components/Card';
-import product from './product.json';
+import React from "react";
+import Home from "./components/Home";
+import Navbar from "./components/Navbar";
+import { Routes, Route } from "react-router-dom";
+import Login from "./components/Login";
+import Signup from "./components/Signup";
+// import View from "./components/View";
 
 const App = () => {
   return (
-    <div className="flex flex-wrap gap-6 justify-center items-center min-h-screen">
-      {product.map((i) => (
-        <Card
-          key={i.id}
-          title={i.product_name}
-          image={i.product_img}
-          price={i.price}
-        />
-      ))}
-    </div>
+    <>
+      <View />
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
+      </Routes>
+    </>
   );
 };
 
