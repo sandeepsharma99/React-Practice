@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "./Card.jsx";
-import products from "../product-api/product.js";
+import products from "../product-api/product.js"
 
 const Home = () => {
   
@@ -16,13 +16,3 @@ const Home = () => {
 };
 
 export default Home;
-
-// import React from 'react'
-
-// const Home = () => {
-//   return (
-//     <div>Home Page</div>
-//   )
-// }
-
-// export default Home

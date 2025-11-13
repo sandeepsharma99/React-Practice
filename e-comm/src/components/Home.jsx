@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "./Card.jsx";
-import products from "../product-api/product.js";
+import products from "../product-api/product.js"
 
 const Home = () => {
   
