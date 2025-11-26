@@ -26,7 +26,6 @@ app.listen(PORT,()=>{
     console.log('server is listening on port 3000')
 })
 
-// sdfghjkl;jhgfdghjkl;
 // lkjhkljhdsaskjcxvbckn
 // hjklsfkkxjkl
 // heajskl;';dlmkfdnb
