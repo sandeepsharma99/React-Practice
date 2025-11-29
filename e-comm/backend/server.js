@@ -39,11 +39,6 @@ app.listen(PORT,()=>{
 // fdsafhjgdfsdghjk
 // sdfghjgfdsfhjgk
 // gfdsjklhgfdf
-// admnbnsdbmnfbsd
-// cvbnmnbvcbnm
-// dhjgfxhjkhgcxfghj
-// dshbcsbkjxcbkjsdb
-// ghdjbxzkjcbskjz
 // ysdjgjbcjhdjsbcxj
 // jhbsdnxbcmbsm
 // uiwdkhskjabcbh
