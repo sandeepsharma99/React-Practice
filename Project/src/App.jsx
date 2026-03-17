@@ -76,6 +76,7 @@ const App = () => {
       <Route path ="/home" element={<Home/>}/>
       <Route path ="/cart" element={<View/>}/>
       <Route path ="profile" element = {<Profile/>}/>
+      <Route path ="/checkout" element = {<Checkout/>}/>
       {/* public route */}
       <Route path ="/login" element={<Login/>}/>
       <Route path = "/signup" element ={<Signup/>}/>
