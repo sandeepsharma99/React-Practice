@@ -2,6 +2,7 @@ import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
 import mongoose from "mongoose";
+import AuthController from "./controller/AuthController.js";
 
 
 const PORT = 3000;
@@ -25,7 +26,7 @@ app.get("/", (req, res) => {
   res.send("Hello World!");
 });
 
-
+app.use("/api/auth",AuthController)  
 
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
